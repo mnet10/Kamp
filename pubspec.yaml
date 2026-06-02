@@ -40,6 +40,12 @@ dependencies:
 
   # Flashlight package
   torch_light: ^0.3.0
+
+  # For opening SMS/URI intents
+  url_launcher: ^6.1.7
+  
+  # Permissions
+  permission_handler: ^10.4.0
   
 dev_dependencies:
   flutter_test:
