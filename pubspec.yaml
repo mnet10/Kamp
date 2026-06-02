@@ -1,0 +1,62 @@
+name: kamp
+description: "Kamp ve dağ/orman gezginleri için hayat kurtarıcı çok amaçlı program"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Navigation
+  cupertino_icons: ^1.0.2
+  go_router: ^13.0.0
+  
+  # State Management
+  provider: ^6.0.0
+  
+  # Location & Maps
+  geolocator: ^9.0.0
+  google_maps_flutter: ^2.5.0
+  
+  # Storage & Database
+  sqflite: ^2.3.0
+  hive: ^2.2.0
+  hive_flutter: ^1.1.0
+  
+  # Networking
+  http: ^1.1.0
+  dio: ^5.3.0
+  
+  # Emergency & Alerts
+  flutter_local_notifications: ^16.0.0
+  
+  # Utils
+  intl: ^0.19.0
+  uuid: ^4.0.0
+
+  # Flashlight package
+  torch_light: ^0.3.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
